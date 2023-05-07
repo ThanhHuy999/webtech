@@ -17,3 +17,5 @@ if (!$result) {
 while ($row = pg_fetch_assoc($result)) {
     var_dump($row);
 }
+
+?>
