@@ -16,6 +16,7 @@ if (!$result) {
 }
 // Show value
 while ($row = pg_fetch_assoc($result)) {
+    <h1>Xin chao Thanh Huy</h1>
     var_dump($row);
 }
 
