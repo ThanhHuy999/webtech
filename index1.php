@@ -9,14 +9,14 @@ if (!$dbConn) {
     exit;
 }
 // Query data
-$result = pg_query($dbConn, 'SELECT * FROM BAI_BAO;');
+$result = pg_query($dbConn, 'SELECT * FROM BAI_BAO');
 if (!$result) {
     echo "An error occurred.\n";
     exit;
 }
 // Show value
 while ($row = pg_fetch_assoc($result)) {
-    <h1>Xin chao Thanh Huy</h1>
+    echo "Xin chào Thanh Huy!";
     var_dump($row);
 }
 
