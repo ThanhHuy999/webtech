@@ -1,3 +1,3 @@
 <?php
-  header( 'Location: /xinchao.htm' ) ;
+  header( 'Location: /index.html.htm' ) ;
 ?>
