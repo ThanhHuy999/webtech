@@ -11,4 +11,4 @@ $dbconn3 = pg_connect("host=sheep port=5432 dbname=dej1s4ruimc6fl user=qvojangux
 $result = pg_query($dbconn3, "select * from bai_viet");
 var_dump(pg_fetch_all($result));
 
-?
+?>
