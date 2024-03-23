@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>Trang chủ | Chia sẻ kiến thức công nghệ</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="../ckeditor.js"></script>
   </head>
 
   <body
@@ -165,6 +166,16 @@
     </aside>
 
     <footer style="background-color: blueviolet; min-height: 100px;">
+      <form>
+        <textarea name="editor1" id="editor1" rows="10" cols="80">
+            This is my textarea to be replaced with CKEditor 4.
+        </textarea>
+        <script>
+            // Replace the <textarea id="editor1"> with a CKEditor 4
+            // instance, using default configuration.
+            CKEDITOR.replace( 'editor1' );
+        </script>
+    </form>
     <b>Website kiến thức công nghệ</b>
     <p>Vui lòng ghi rõ nguồn khi copy nội dung từ trang web này</p>
   
