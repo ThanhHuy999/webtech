@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Trang chủ | Chia sẻ kiến thức công nghệ</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="../ckeditor.js"></script>
+   
   </head>
 
   <body
@@ -170,30 +170,7 @@
         <textarea name="editor1" id="editor1" rows="10" cols="80">
             This is my textarea to be replaced with CKEditor 4.
         </textarea>
-        <script>
-          CKEDITOR.editorConfig = function( config ) {
-	config.toolbarGroups = [
-		{ name: 'document', groups: [ 'mode', 'document', 'doctools' ] },
-		{ name: 'clipboard', groups: [ 'clipboard', 'undo' ] },
-		{ name: 'editing', groups: [ 'find', 'selection', 'spellchecker', 'editing' ] },
-		{ name: 'forms', groups: [ 'forms' ] },
-		'/',
-		{ name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ] },
-		{ name: 'paragraph', groups: [ 'list', 'indent', 'blocks', 'align', 'bidi', 'paragraph' ] },
-		{ name: 'links', groups: [ 'links' ] },
-		{ name: 'insert', groups: [ 'insert' ] },
-		'/',
-		{ name: 'styles', groups: [ 'styles' ] },
-		{ name: 'colors', groups: [ 'colors' ] },
-		{ name: 'tools', groups: [ 'tools' ] },
-		{ name: 'others', groups: [ 'others' ] },
-		{ name: 'about', groups: [ 'about' ] }
-	];
-};
-            // Replace the <textarea id="editor1"> with a CKEditor 4
-            // instance, using default configuration.
-            CKEDITOR.replace( 'editor1' );
-        </script>
+        <script src="https://cdn.ckeditor.com/ckeditor5/41.1.0/classic/ckeditor.js"></script>
     </form>
     <b>Website kiến thức công nghệ</b>
     <p>Vui lòng ghi rõ nguồn khi copy nội dung từ trang web này</p>
