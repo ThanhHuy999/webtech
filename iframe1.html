@@ -66,8 +66,6 @@
   </head>
   <body>
     <h1>CKEditor 5 – premium features sample</h1>
-    <form action="[URL]" method="post">
-      <textarea name="content1" id="editor1">
     <!-- Use simpler CSS and HTML structure if you do not want to integrate i.e. the Revision history feature. !-->
     <div id="presence-list-container"></div>
 
@@ -542,18 +540,6 @@
         .catch((error) => {
           console.error("There was a problem initializing the editor.", error);
         });
-    </script>
-
-</textarea
-      >
-      <p><input type="submit" value="Submit" /></p>
-    </form>
-    <script>
-      ClassicEditor.create(document.querySelector("#editor1")).catch(
-        (error) => {
-          console.error(error);
-        }
-      );
     </script>
   </body>
 </html>
