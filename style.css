@@ -2,80 +2,75 @@
 
 /* CSS Document */
 
-body{
-	font-family: Arial;
-	font-size: 15px;
+body {
+  font-family: Arial;
+  font-size: 15px;
 }
 
-#header,#main,#section,#aside,#footer{
-	display: inline;
-	position: relative;
-	float: left;
+#header,
+#main,
+#section,
+#aside,
+#footer {
+  display: inline;
+  position: relative;
+  float: left;
 }
 
-
-footer{
-	background-color: red;
-	width: 100%;
-	height: 3cm;
-	float: right;
+footer {
+  background-color: red;
+  width: 100%;
+  height: 3cm;
+  float: right;
 }
 
-header{
-    text-align: center;
-    padding: 20px;
-    background-image: url("hinh_nen_banh_rang.jpg");
-    height: 2.5cm;
-    color: #EF2146;
-
-    
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(83, 123, 158);
+  height: 2.5cm;
+  color: #ef2146;
 }
 
-
-
-#xinchao{
-    background-color: gray;
-   	float: left;
-	width: 50%;
+#xinchao {
+  background-color: gray;
+  float: left;
+  width: 50%;
 }
 
-#xinchao1{
-	background-color: #1605DC;
-   	float: left;
-	width: 25%;
-	height: 7.25cm;
+#xinchao1 {
+  background-color: #1605dc;
+  float: left;
+  width: 25%;
+  height: 7.25cm;
 }
 
-#xinchao123{
-	background-color: green;
-	width: auto;
-	padding: 10px;
+#xinchao123 {
+  background-color: green;
+  width: auto;
+  padding: 10px;
 }
 
-
-
-
-aside{
-    background-color: #B80E96;
-	float: left;
-	width: 25%;
+aside {
+  background-color: #b80e96;
+  float: left;
+  width: 25%;
 }
-
-
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #07FF29;
+  background-color: #07ff29;
 }
 
 li {
   float: left;
 }
 
-li a, .dropbtn {
+li a,
+.dropbtn {
   display: inline-block;
   color: black;
   text-align: center;
@@ -83,8 +78,9 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: #108B07;
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #108b07;
   color: white;
 }
 
@@ -95,9 +91,9 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #01CC22;
+  background-color: #01cc22;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -109,7 +105,9 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #00600F;}
+.dropdown-content a:hover {
+  background-color: #00600f;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
