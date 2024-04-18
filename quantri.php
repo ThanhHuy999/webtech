@@ -6,5 +6,5 @@
 
     
     pg_query("INSERT INTO BAI_VIET(TIEU_DE_BAI_VIET, CHUYEN_MUC, ANH_DAI_DIEN, TEN_TAC_GIA) VALUES ('$editor_data','Nen tang tri thuc','abc','Thanh Huy 9');");
-    echo("xin chao");
+    echo("Đã gửi phê duyệt bài viết của bạn. Trong vòng 24h làm việc nếu bài viết của bạn vẫn ở trạng thái Chờ phê duyệt. Vui lòng truy cập tính năng Hỗ trợ là thông báo cho chúng tôi ngay. Trân trọng./.");
 ?>
