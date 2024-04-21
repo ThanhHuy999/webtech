@@ -11,14 +11,7 @@
     <meta charset="utf-8" />
     <title>Trang chủ | Chia sẻ kiến thức công nghệ</title>
     <link href="style.css" rel="stylesheet" type="text/css"/>
-	  <style>
-      /* CSS cho các thiết bị có chiều rộng nhỏ hơn 600px */
-      @media only screen and (max-width: 1000px) {
-        body {
-          background-color: #BDB4D6;
-        }
-      }
-    </style>
+	  
   </head>
 
   <body
