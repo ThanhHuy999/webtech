@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body background-color="red" >
-    <h1>ĐĂNG NHẬP TÀI KHOẢN</h1>
+<body style="background-color:red;" >
+    <h1 text="white">ĐĂNG NHẬP TÀI KHOẢN</h1>
     <form action="">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required><br><br>
