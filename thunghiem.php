@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body style="background-color:red;" >
-    <h1 text="white">ĐĂNG NHẬP TÀI KHOẢN</h1>
+    <h1 text="white" align="center">ĐĂNG NHẬP TÀI KHOẢN</h1>
     <form action="">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required><br><br>
