@@ -8,10 +8,10 @@
 <body style="background-color:red;" >
     <h1 text="white" align="center">ĐĂNG NHẬP TÀI KHOẢN</h1>
     <form action="">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required><br><br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br><br>
+        <label align="center" for="username">Username:</label>
+        <input align="center" type="text" id="username" name="username" required><br><br>
+        <label align="center" for="password">Password:</label>
+        <input align="center" type="password" id="password" name="password" required><br><br>
     </form>
 </body>
 </html>
